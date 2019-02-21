@@ -1,14 +1,15 @@
 {
-  "name": "quick-gig",
+  "name": "Quick-Gig",
   "version": "1.0.0",
   "description": "A short test on vue.js, to build a single web page",
   "author": "Osarenren Enoch",
   "private": true,
-  "scripts": {
+  "scripts": { 
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build",
     "test": "jest"
   },
   "dependencies": {

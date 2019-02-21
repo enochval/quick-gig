@@ -21,7 +21,12 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+          'https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500,600,700|Material+Icons'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
       }
     ]
   },
@@ -35,14 +40,16 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl'
+    '~/assets/style/app.styl',
+    '~/assets/css/main.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
+    '@/plugins/vuetify',
+    '@/plugins/axios'
   ],
 
   /*
@@ -58,6 +65,7 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    baseURL: 'http://demo4507124.mockable.io'
   },
 
   /*
