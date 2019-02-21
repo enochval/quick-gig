@@ -58,7 +58,10 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+<<<<<<< HEAD
     baseURL: 'https://demo4507124.mockable.io'
+=======
+>>>>>>> parent of 5d9f28a... complete phase
   },
 
   /*
