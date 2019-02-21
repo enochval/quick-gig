@@ -21,12 +21,7 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500,600,700|Material+Icons'
-      },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
+          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
       }
     ]
   },
@@ -40,16 +35,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl',
-    '~/assets/css/main.css'
+    '~/assets/style/app.styl'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify',
-    '@/plugins/axios'
+    '@/plugins/vuetify'
   ],
 
   /*
